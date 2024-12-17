@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Javascript 17.12.2024 | HTML Forms</h1>
+    </main>
+    <form method="POST">
+      <label for="name">Name</label>
+      <br />
+      <input
+        id="name"
+        name="name"
+        type="text"
+        required
+        placeholder="Name Nameson"
+      />
+      <br />
+      <select id="Race" name="race">
+        <option value="orc">Orc</option>
+        <option value="tauren">Tauren</option>
+        <option value="troll">Troll</option>
+        <option value="undead">Undead</option>
+      </select>
+    </form>
+    <h3>Calculator</h3>
+    <form method="POST" id="calculator">
+      <label for="number1"> First Number </label>
+      <input id="number1" name="number1" type="number" />
+      <br />
+      <label for="number2"> Second Number </label>
+      <input id="number2" name="number2" type="number" />
+      <select id="formula" name="formula">
+        <option value="addition">Addition</option>
+        <option value="subtraction">Subtraction</option>
+        <option value="multiply">Multiply</option>
+        <option value="division">Divide</option>
+      </select>
+      <button id="math-button">Math it!</button>
+    </form>
+  </body>
+</html>
